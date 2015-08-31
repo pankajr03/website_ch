@@ -246,239 +246,58 @@ ul {
     color: #05c3f9;
 }
 
-
-
-/*about us css*/
-.mrg20{
-    margin:0 0 30px ;
-    display: inline-block;
-}
-
-.app-image .phone-image {
-    margin: auto auto 50px;
-    max-width: 350px;
-}
-.app-brief h2 {
-    margin-bottom: 20px;
-}
-.colored-line-left {
-    background: #05c3f9 none repeat scroll 0 0;
+/* For hiring page */
+.location{    margin: 0;
     display: block;
-    float: left;
-    height: 1px;
-    width: 165px;
-    z-index: 1;
-}
-.app-brief  p {
-    display: block;
-    float: none;
-    margin-top: 50px;
-    font-family: 'Roboto-Light';
-    font-size: 15px;
-    font-weight: 300;
-    line-height: 26px;
-}
-.app-brief .feature-list {
-    margin-top: 40px;
-    padding: 0;
-}
-.app-brief .feature-list li {
-    margin-bottom: 26px;
-    font-family: 'Roboto-Light';
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 28px;
-}
-.our-team {
-    border-bottom: 1px solid #cfcfcf;
-    margin-bottom: 60px;
-    padding: 40px 0 0;
-}
-
-.our-team h4 {
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #444;
-}
-.our-team ol {
-    list-style-type: square;
-    margin-bottom:30px;
-    margin-top: 20px;
-    padding-left: 20px;
-}
-.our-team ol li {
-    list-style-type: square;
-}
-.our-team .our-member {
-    margin-bottom: 60px;
+	position:relative;
+	    padding: 0;
+		}
+.location li{    display: inline-block;
+    width: 25%;
     text-align: center;
-}
-.our-team .our-member .our-member-cover {
-    margin-bottom: 20px;
-    text-align: center;
-}
-.our-team .our-member .our-member-cover img {
-    margin: 0 auto;
-    display: block;
     height: auto;
-    max-width: 100%;
-}
-.our-team .our-member h4 span {
-    display: block;
-    font-style: italic;
-    font-weight: 400;
-    text-transform: none;
-    margin: 5px 0;
-}
-.our-team .our-member p {
-    margin-bottom: 10px;
-    padding: 0 10px;
-}
-.our-team .our-member ul {
+    padding: 38px;
+    border-radius: 100px;
+    background-color: #05c3f9;
+    margin-right: 25px;}
+.location li span{    font-size: 30px; color:#fff;}
+
+.pstcontent{    
+	background-color: transparent !important;
+    border-radius: 0 !important;
+	    padding: 0 !important;
+		vertical-align: top;
+		    padding-top: 20px !important;
+	}
+.jobfrm{    padding: 50px 20px;
+    background-color: #F7F7F7;
     margin: 20px 0;
-    padding: 0;
+	    overflow: hidden;}
+.jobfrm h3, .jobfrm p{text-align:center;}
+.hirbox{margin:20px auto;}
+@media screen and (min-width: 299px) and (max-width: 444px) {
+.location hr {
+     margin-left: 7px;
+     top: 5px;
+	 width: 50%;
+    }
+.location li {
+    padding: 20px;
+    margin-right: 7px;
 }
-.our-team .our-member ul li {
-    display: inline-block;
-    margin: 0 10px;
+.location li span {
+    font-size: 20px;
+    
 }
-.our-team .our-member ul li a {
-    background: url("../img/socials-profile-sprite.png") no-repeat scroll 0 0;
-    display: block;
-    height: 40px;
-    opacity: 0.7;
-    width: 40px;
+.pstcontent h4{font-size:14px;}
 }
-.our-team .our-member ul li a.our-member-facebook {
-    background-position: -60px 0;
-}
-.our-team .our-member ul li a.our-member-twitter {
-    background-position: 0 0;
-}
+/* For hiring page */
 
-/*contact us css*/
-.content-contact-form {
-    margin-bottom: 60px;
-}
-.content-contact-form h1 {
-    font-weight: 300;
-    font-size: 40px;
-    line-height: 1em;
-    margin: 0 0 25px 0;
-    padding: 0;
-    color: #474747;
-}
-.content-contact-form p {
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 1.7em;
-    color: #a9a9a9;
-    margin-bottom: 25px;
-    padding: 0;
-}
-.content-contact-form .contact-form-line {
-    border: 1px solid #c2c2c2;
-    margin-bottom: 20px;
-    padding: 10px 15px;
-    width: 100%;
-    font-size: 14px;
-    color: #aaaaaa;
-    border-radius: 3px;
-    font-style: italic;
-    outline: none;
-}
-.content-contact-form .contact-form-area {
-    border: 1px solid #c2c2c2;
-    margin-bottom: 20px;
-    padding: 10px 15px;
-    width: 100%;
-    font-size: 14px;
-    color: #aaaaaa;
-    height: 169px;
-    outline: none;
-    resize: none;
-    border-radius: 3px;
-    font-style: italic;
-}
-.all-socials {
-    text-align: right;
-}
-.all-socials li {
-    margin: 0 0 0 10px;
-    display: inline-block;
-
-}
-.all-socials li a i {
-    color: #fff;
-    font-size: 15px;
-    line-height: 1em;
-    display: block;
-    font-weight: 300;
-    border-radius: 3px;
-    padding: 5px;
-    background:url("../img/socials_img.png");
-    width: 25px;
-    height: 25px;
-}
-.all-socials li a:hover i {
-    color: #333;
-}
-.all-socials li a i.socials-facebook {
-    background-position: 25px 0;
-}
-.all-socials li a i.socials-twitter {
-    background-position: 60px 0;
-}
-.all-socials li a i.socials-pinterest {
-    background-position: 0 0;
-}
-.all-socials li a i.socials-dribbble {
-    background-position: -35px 0;
-}
-.content-path-1 {
-    margin-bottom: 60px;
-    padding-top: 60px;
-}
-
-.content-path-1 h1 {
-    font-size: 30px;
-    line-height: 1.5em;
-    text-align: center;
-    font-weight: 300;
-    color: #777;
-    margin: 0;
-    padding: 0;
-}
-p.contact_desc{
-    margin-bottom: 26px;
-    font-family: 'Roboto-Light';
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 28px;
-    margin-top: 25px;
-}
-.button-2 {
-    background: #05c3f9;
-    border: medium none;
-    border-radius: 3px;
-    color: #fff;
-    display: inline-block;
-    line-height: 1em;
-    margin-bottom: 10px;
-    outline: medium none;
-    padding: 15px 40px;
-    text-align: center;
-    text-transform: uppercase;
-}
 @media screen and (min-width: 299px) and (max-width: 480px) {
     .boxes ul li {
         width: 100%;
         display: block;
         margin-bottom: 60px;
-    }
-    .app-image .phone-image{
-        max-width: 250px;
     }
 }
 
