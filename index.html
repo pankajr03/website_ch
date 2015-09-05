@@ -42,7 +42,7 @@
                             <li><a href="contact.html">Contact</a></li>
                             <li>
                                 <form class="navbar-form navbar-left">
-                                    <button class="btn btn-primary">Buy Now</button>
+                                    <a href="#myModal" role="button" class="btn btn-primary" data-toggle="modal">Buy Now</a>
                                 </form>
                             </li>
                         </ul>
@@ -57,16 +57,38 @@
                     <h1>Medical Trauma</h1>
                     <h3>Facilitating instant reporting of Emergency cases</h3>
                     <p>v. 2.8 For Mac and Android</p>
+					
                     <div class="clearfix">
                         <img class="img-responsive" src="Content/img/High Acuity Screen 1.6_vertical.jpg" alt="Mobile Preview" width="70%"/>
 						
                     </div>
                 </div>
 				<br />
-                <button class="btn btn-primary big">Download For Free Now</button>
-                <p>Unlimited 30-Days Trial Period</p>
+                <a href="#myModal" role="button" class="btn btn-primary big" data-toggle="modal" style="margin-bottom:20px;">Download For Free Now</a>
+               <!-- Modal HTML -->
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                
+            </div>
+            <div class="modal-body">
+			<div class="row">
+                <div class="col-md-6 col-xs-12 text-center"><a href="#"><img src="Content/img/ios.png"></a></div>
+                <div class="col-md-6 col-xs-12 text-center"><a href="#"><img src="Content/img/android.png"></a></div>
+            </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                
             </div>
         </div>
+    </div>
+</div>
+            </div>
+        </div>
+		
 
         <div class="video-container greyBG">
             <div class="container row text-left">
@@ -105,12 +127,12 @@
                     <h1 class="blue">Features</h1>
                 </div>
                 <div class="col-lg-5">
-                    <h2 class="blue">Report Emergency.</h2>
+                    <h2 class="blue">Report Emergency</h2>
                     <p>Add the emergency report by the mobile user (EMT) to the DB, which in return can be viewed by the doctors using the Clinical Web App </p>
 
 					<h2>Capture Basic Info Like:</h2>
 
-                    <ul>
+                    <ul class="featuring">
                         <li>
                             <b>The current location of the EMT</b>
                         </li>

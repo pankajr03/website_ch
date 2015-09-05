@@ -613,6 +613,9 @@ p.contact_desc{
 .cbp-so-side img{max-width:100%;}
 .blue h4{color:#7a7a7a;}
 .featuring {list-style-type:circle; }
+.featuring li {     border-bottom: 1px solid;
+    padding: 5px 0;
+}
 .cbp-so-scroller {
 	margin-top: 3em;
 	overflow: hidden;
