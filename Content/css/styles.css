@@ -592,4 +592,14 @@ p.contact_desc{
 /* For hiring page */
 
 
+/* For Help Page */
+.content-container {
+    border-bottom: 1px solid #e8e8e8;
+}
+.helpSteps {
+}
+    .helpSteps .step {
+        padding-bottom:30px;
+    }
 
+/* For Help Page */
