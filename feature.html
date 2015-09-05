@@ -4,17 +4,18 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Medical Trauma | About Us</title>
+    <title>Medical Trauma | Feature</title>
 
     <link rel="shortcut icon" href="Content/img/favicon.ico" type="image/x-icon">
 	<link href="Content/css/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/css/font-awesome.min.css" rel="stylesheet">
     <link href="Content/css/styles.css" rel="stylesheet" />
-
-
+ <!--For feature page-->
+		<script src="Content/js/modernizr.custom.js"></script>
+ <!--For feature page-->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 <body>
@@ -31,14 +32,14 @@
                             <span class="icon-bar"></span>
                         </button>
 
-                       <a class="navbar-brand" href="index.html"><img src="Content/img/logo.png" class="img-responsive"></a>
+                        <a class="navbar-brand" href="index.html"><img src="Content/img/logo.png" class="img-responsive"></a>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse navbar-right">
                         <ul class="nav navbar-nav">
                             <li><a href="index.html">Pro</a></li>
-                            <li><a href="faq.html">Faq</a></li>
-							<li><a href="feature.html">Feature</a></li>
-                            <li class="active"><a href="about.html">About</a></li>
+							<li><a href="faq.html">Faq</a></li>
+                            <li class="active"><a href="help.html">Feature</a></li>
+                            <li><a href="about.html">About</a></li>
                             <li><a href="contact.html">Contact</a></li>
                             <li>
                                 <form class="navbar-form navbar-left">
@@ -53,35 +54,78 @@
 
         <div class="slider-container">
             <div class="container row text-center">
-                <div class="blue">
-                    <h1>About Us</h1>
-                    <h3>Facilitating instant reporting of Emergency cases</h3>
-                    <p>v. 2.8 For Mac and Android</p>
-                   
+                <div class="blue" style="margin-bottom:20px;">
+                    <h1>Feature</h1>
+                    <h4>This application is developed for Emergency Medical Technicians (EMTs) to report new emergency cases while they are travelling to the nearest hospital. The application will provide real time updates to the clinical web application that will be accessed by the doctors at the hospital. The real time updates will include the type emergency (Trauma\Stroke or MI), the status of the patient with details of the medical status and the location updates. This will help the doctors at the hospital to be aware of the situation and be prepared to receive the patient upon arrival.</h4>
                 </div>
                 
             </div>
         </div>
 
-    <!--content section-->
-
-    <section>
-        <div class="container">
-            <div class="our-team clearfix">
-               <div class="row">
-				<div class="col-md-12 text-center">
-				<img src="Content/img/under_construction.jpg" class="phone-image" alt=""/>
-				<br /> 
-				<br /> 
-				</div>
-			   </div>
-             
-            </div>
-        </div>
-    </section>
-
-
-
+<div>
+<div class="container" >
+				
+			<div id="cbp-so-scroller" class="cbp-so-scroller">
+				<section class="cbp-so-section">
+					<article class="cbp-so-side cbp-so-side-left text-left">
+						<h2>Report Emergency</h2>
+						<p>Add the emergency report by the mobile user (EMT) to the DB, which in return can be viewed by the doctors using the Clinical Web App</p>
+						<ul class="featuring"><b>Capture Basic Info Like:</b>
+						<li>The current location of the EMT</li>
+						<li>Emergency Type: Trauma\ Stroke or MI</li>
+						<li>Patient Basic Infor - Name, Age, Sex</li>
+						<li>Description of the incident</li>
+						<li>Location of the incident</li>
+						<li>Details of the Patient status - The exact details to be captured and stored need to be discusses and finalized.</li>
+						</ul>
+					</article>
+					<figure class="cbp-so-side cbp-so-side-right">
+						<img src="Content/img/(edited) Mobile-trauma-case-screen-step1-tablet-7-inch.jpg" alt="img01">
+					</figure>
+				</section>
+				<section class="cbp-so-section">
+					<figure class="cbp-so-side cbp-so-side-left">
+						<img src="Content/img/step2(v2).png" alt="img01">
+					</figure>
+					<article class="cbp-so-side cbp-so-side-right">
+						<h2>VIEWING TRAUMA CASE DETAILS</h2>
+						<p>It will capture the set of emergency details (patient status details).</p>
+						<ul class="featuring">
+						<li>The details to be captured will differ based on the emergency type selected (Trauma\Stroke or MI). The details for each option will need to be discussed and clarified with HCI. For example: for a trauma this will capture the last vitals, Mechanism of injury etc.</li>
+						<li>Furthermore, the screen will provide a model image a male\female (depending on the patient's sex) for the EMT to provide further information.</li>
+						<li>Upon clicking on the image and selecting the options provided the user will be directed to the second screen described next. Note: this needs to be clarified further.</li>
+						</ul>
+					</article>
+				</section>
+				<section class="cbp-so-section">
+					<article class="cbp-so-side cbp-so-side-left">
+						<h2>Track EMT Location</h2>
+						<p>Another feature of this app is to track the EMT Location so that the doctors will have an understanding of the arrival time</p>
+						<ul class="featuring">
+						<li>This app will update the EMT's location from the moment the new emergency is reported until it is marked as closed. The mobile app will make calls to the API every 1 mile so the doctors will have an understanding of the arrival time</li>
+						
+						</ul>
+					</article>
+					<figure class="cbp-so-side cbp-so-side-right">
+						<img src="Content/img/High Acuity Screen 1.6.jpg" alt="img01">
+					</figure>
+				</section>
+				
+				<section class="cbp-so-section">
+					
+					<article class="text-center">
+						<h2>MEDICAL TRAUMA ANDROID APPLICATION</h2>
+						<ul>
+						<li>Allowing Emergency Medical Technicians to report new emergency cases during transport</li>
+						<li>Providing real time updates to clinical web application which is accessed by doctors at hospital</li>
+						</ul>
+						<img src="Content/img/db.jpg" alt="img01" style="max-width:100%;">
+					</article>
+				</section>
+				
+			</div>
+		</div>
+	</div>
         <div class="subscribe-container greyBG">
             <div class="container row">
                 <div class="blue">
@@ -148,7 +192,7 @@
                     &nbsp;&nbsp;&nbsp;
                     <a href="#" class="blue">Privacy policy</a>
                     &nbsp;&nbsp;&nbsp;
-                    &copy; 2015 mentiond.
+                    &copy; 2015 trauma.
                 </div>
             </div>
         </div>
@@ -156,5 +200,12 @@
 
     <script src="Content/js/jquery.min.1.11.3.js"></script>
     <script src="Content/js/bootstrap.min.js"></script>
+	 <!--For feature page-->
+	<script src="Content/js/classie.js"></script>
+		<script src="Content/js/cbpScroller.js"></script>
+		<script>
+			new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
+		</script>
+		 <!--For feature page-->
 </body>
 </html>
