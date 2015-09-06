@@ -51,7 +51,7 @@
             </div>
         </div>
 
-        <div class="slider-container">
+        <!--<div class="slider-container">
             <div class="container row text-center">
                 <div class="blue">
                     <h1>Contact Us</h1>
@@ -61,15 +61,15 @@
                 </div>
                 
             </div>
-        </div>
+        </div>-->
 
         <!--content section-->
         <section>
-            <div class="our-location">
+            <!--<div class="our-location">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d109750.89750597149!2d76.76641439999997!3d30.72639619999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed0be66ec96b%3A0xa5ff67f9527319fe!2sChandigarh!5e0!3m2!1sen!2sin!4v1441017998048" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            </div>
+            </div>-->
             <div class="content-contact-form">
-                <form id="contact_form">
+                <form id="contact_form" method="post" role="form" action="contactus.php">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-4">
@@ -78,17 +78,19 @@
                                 <div class="mrg20"></div>
                             </div>
                             <div class="col-md-8">
-                                <p class="contact_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fringilla ornare porta. Sed tortor dolor, interdum vitae sodales sed, pharetra at odio. Phasellus facilisis sapien mauris, sed rhoncus quam convallis quis.</p>
+                                <p class="contact_desc">
+								The solution removes many of the barriers which prevent clinical users from getting answers to important medical questions about the emergency cases.
+								</p>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-4">
-                                <input type="text" name="contact-name" class="contact-form-line" placeholder="Name">
-                                <input type="text" name="contact-email" class="contact-form-line" placeholder="E-mail">
-                                <input type="text" name="contact-website" class="contact-form-line" placeholder="Website">
+                                <input type="text" name="txtName" class="contact-form-line" placeholder="Name" required="required" />
+                                <input type="email" name="txtEmail" class="contact-form-line" placeholder="E-mail" required="required" />
+                                <input type="url" name="txtWebsite" class="contact-form-line" placeholder="Website" />
                             </div>
                             <div class="col-md-8">
-                                <textarea name="contact-message" class="contact-form-area" placeholder="Message"></textarea>
+                                <textarea name="txtMessage" class="contact-form-area" placeholder="Message"  required="required"></textarea>
                             </div>
                         </div>
                         <div class="row">
@@ -109,10 +111,10 @@
                 <div class="blue">
                     <h3 class="pull-left">Subscribe to our Newsletter</h3>
 
-                    <form class="subscribeForm pull-right">
+                    <form class="subscribeForm pull-right" id="subscribeForm" method="post" role="form" action="subscribe.php">
                         <div class="input-group">
-                            <input type="email" placeholder="Email..." class="form-control" />
-                            <button class="btn btn-primary">SUBSCIBE</button>
+                            <input type="email" placeholder="Email..." class="form-control"  required="required" />
+                            <button class="btn btn-primary" type="submit">SUBSCIBE</button>
                         </div>
                     </form>
                 </div>
